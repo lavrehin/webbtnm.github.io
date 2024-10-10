@@ -5,8 +5,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100svh; /* Используй 100svh вместо 100vh для лучшей адаптации на мобильных устройствах */
     margin: 0;
+    overflow: hidden; /* Отключает вертикальный скроллинг */
 }
 
 .container {
@@ -15,6 +16,10 @@ body {
 
 h1 {
     margin-bottom: 20px;
+}
+
+.name {
+    display: block;
 }
 
 ul {
